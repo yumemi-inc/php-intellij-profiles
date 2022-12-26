@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use YumemiInc\IntellijProfiles\Command\Install;
+
+$app = new Application('IntelliJ Profiles Installer by YUMEMI Inc.');
+$app->add(new Install());
+$app->setDefaultCommand('install');
+
+/** @noinspection PhpUnhandledExceptionInspection */
+$app->run();
