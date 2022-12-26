@@ -37,7 +37,7 @@
   <inspection_tool class="PhpCastIsEvaluableInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpCastIsUnnecessaryInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpCatchWithInstanceOfCanBeReplacedWithSpecificCatchesInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-  <inspection_tool class="PhpClassCanBeReadonlyInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpClassCanBeReadonlyInspection" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpClassCantBeUsedAsAttributeInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpClassConstantAccessedViaChildClassInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpClassConstantCanBeFinalInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
