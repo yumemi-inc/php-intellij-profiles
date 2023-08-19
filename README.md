@@ -1,4 +1,4 @@
-# 🛠 yumemi-inc/php-cs-fixer-config
+# 🛠 yumemi-inc/intellij-profiles
 Strict and modern PHP inspection profiles for PhpStorm or other JetBrains IDEs.
 
 > **Warning**  
